@@ -155,21 +155,21 @@ def trip_duration_stats(df):
     # TO DO: display total travel time
     total_tratime = df['Trip Duration'].sum()
     total_tratime_hours= total_tratime//3600
-    print('The total traveled time is:', total_tratime_hours, 'hours' )
+    print('The total traveled time is {} hours'.format(total_tratime_hours))
 
     # TO DO: display mean travel time
     mean_tratime = df['Trip Duration'].mean()
     mean_tratime_mins= mean_tratime//60
-    print('The mean traveled time is: ', mean_tratime_mins, 'minutes' )
+    print('The mean traveled time is {} minutes'.format(mean_tratime_mins))
 
     ## This is extra TO DO: display the longest time per trip for this city, month, day selection
     max_tratime = df['Trip Duration'].max()
     max_tratime_mins = max_tratime//60
-    print('The longest trip time is:  ', max_tratime_mins, 'minutes' )
+    print('The longest trip time is {} minutes'.format(max_tratime_mins))
 
     ## This is extra TO DO: display the shortest time per trip for this city, month, day selection
     min_tratime = df['Trip Duration'].min()
-    print('The shortest trip time is: ', min_tratime, 'seconds')
+    print('The shortest trip time is {} seconds'.format(min_tratime))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*60)
