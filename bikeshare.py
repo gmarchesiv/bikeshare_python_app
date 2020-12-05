@@ -198,14 +198,14 @@ def user_stats(df):
         oldest = df['Birth Year'].min()
         format_oldest=int(oldest)
         print('The oldest user was born in', format_oldest)
-        if format_oldest<1930:
-            print('    This user is older than 90 years. Unlikely. We will have to check on that data and clean it up in a future project.')
+        if format_oldest<1940:
+            print('    This user is older than 80 years. Unlikely. We will have to check on that data and clean it up in a future project.')
 
         youngest = df['Birth Year'].max()
         format_youngest=int(youngest)
         print('The youngest user was born in', format_youngest)
-        if format_youngest>2012:
-            print('    This user is younger than 8 years. Unlikely. We will have to check on that data and clean it up in a future project.')
+        if format_youngest>2010:
+            print('    This user is younger than 10 years. Unlikely. We will have to check on that data and clean it up in a future project.')
 
         mode_year = df['Birth Year'].mode()
         format_mode_year=int(mode_year)

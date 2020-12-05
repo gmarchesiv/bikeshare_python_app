@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+Created on December 5th 2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare project by Giancarlo Marchesi
 
 ### Description
-Describe what your project is about and what it does
+Python interface to analyze data of Bikeshare service use in Chicago, New York City & Washington
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity problem set developed by Giancarlo Marchesi with consultations of the Udacity FAQ section for this assingment
