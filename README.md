@@ -5,7 +5,7 @@ Created on December 5th 2020
 Bikeshare project by Giancarlo Marchesi
 
 ### Description
-Python interface that allows users to analyze data of bike use in Chicago, New York City & Washington
+Python interface to analyze data of Bikeshare service use in Chicago, New York City & Washington
 
 ### Files used
 bikeshare.py
