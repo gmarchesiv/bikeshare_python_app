@@ -11,4 +11,4 @@ Python interface to analyze data of Bikeshare service use in Chicago, New York C
 bikeshare.py
 
 ### Credits
-Udacity problem set developed by Giancarlo Marchesi with consultations of the Udacity FAQ section for this assingment
+Udacity problem set developed by Giancarlo Marchesi with consultations of the Udacity FAQ section for this assignment
